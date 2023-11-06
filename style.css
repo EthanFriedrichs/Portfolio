@@ -1,0 +1,228 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; /* Flex-Start: Left side, Center: Middle, Flex-End: Right side, Space-Around: Puts space around the boxes, Space-Between: Puts space between boxes */
+    align-items: center;
+    align-content: center;
+    min-width: 300px;
+    background-image: url("https://images.unsplash.com/photo-1524169358666-79f22534bc6e?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+}
+
+.flexbox-item
+{
+    font-size: 25px;
+    color: white;
+    margin: 2px;
+    background-color: #dfdfdf;
+}
+
+
+.image
+{
+    flex: 1 0 0px; /* Grow to: 1, If shrink or not (1/0): 0, flex-basis: 0 */
+    min-height: 680px;
+    min-width: 680px;
+    max-width: 680px;
+    border-radius: 300px;
+    background-color: rgb(42, 40, 64);
+    margin-bottom: 5px;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/701px-Python-logo-notext.svg.png");
+    box-shadow: 0px 0px 5px red;
+}
+
+.divBox
+{
+    margin-left: 10%;
+}
+
+.aboveCard
+{
+    min-width: 600px;
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 30px;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.titleCard
+{
+    margin-top: 5%;
+    min-width: 600px;
+    text-align: center;
+    background-color: rgb(42, 40, 64);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1%;
+    border-radius: 20px;
+    color: rgb(254, 139, 139);
+    box-shadow: 2px 2px 5px black;
+}
+
+.quoteCard
+{
+    margin-top: 5%;
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.contactCard
+{
+    margin-top: 5%;
+    text-align: center;
+    background-color: gray;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+.contactCard a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.contactCard a:hover
+{
+    color: blue;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+.contactCard a:active
+{
+    color: aqua;
+    border-style: none;
+}
+
+.secondPage
+{
+    padding: 0% 3%;
+    border-top-style: solid;
+    border-top-color: white;
+    background-color: rgb(113, 113, 113);
+    background-image: url("https://media1.giphy.com/media/smzfl3E7a4iHK/200w.gif?cid=6c09b952xuzobygl9s52zdrpmwhc0m8pi80d7mgbrny9i6z3&ep=v1_gifs_search&rid=200w.gif&ct=g");
+}
+
+.pageCard
+{
+    margin-top: 2%;
+    text-align: left;
+    background-color: bisque;
+    font-size: 20px;
+    padding: 1%;
+    border-style: outset;
+    border-width: 20px;
+    border-color: rgb(145, 129, 110);
+    box-shadow: 2px 2px 5px white;
+}
+
+.pageCard:hover
+{
+    border-style: inset;
+    background-color: rgb(235, 207, 174);
+    box-shadow: 0px 0px 10px white;
+}
+
+.pageCard h3
+{
+    color: rgb(84, 84, 84);
+}
+
+.pageCard p
+{
+    color: rgb(44, 44, 44);
+}
+
+.skillBar1
+{
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(210, 210, 210);
+    width: 81%;
+}
+
+.skillBar2
+{
+    border-style: solid;
+    border-color: black;
+    border-top-style: none;
+    background-color: rgb(154, 154, 154);
+    width: 80%;
+}
+
+.skillBar3
+{
+    border-style: solid;
+    border-color: black;
+    border-top-style: none;
+    background-color: rgb(120, 120, 120);
+    width: 78%;
+}
+
+.skillBar4
+{
+    border-style: solid;
+    border-color: black;
+    border-top-style: none;
+    background-color: rgb(99, 99, 99);
+    width: 70%;
+}
+
+.pageCard a
+{
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.pageCard a:hover
+{
+    color: blue;
+}
+
+.wImage
+{
+    float: right;
+    background-image: url("https://creazilla-store.fra1.digitaloceanspaces.com/icons/7911286/computer-icon-md.png");
+    background-size: contain;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.sImage
+{
+    float: right;
+    margin-top: 5%;
+    background-image: url("https://png.pngtree.com/png-vector/20230124/ourmid/pngtree-computer-keyboard-transparent-png-image_6563776.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 300px;
+}
+
+.mImage
+{
+    float: right;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 150px;
+    min-height: 150px;
+}
