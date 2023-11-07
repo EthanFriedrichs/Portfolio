@@ -237,7 +237,7 @@
 
 .boxShadow
 {
-    color: white;
+    color: black;
     text-align: center;
     padding: 3%;
     margin: 1%;
@@ -258,4 +258,18 @@
     border-style: solid;
     border-color: black;
     max-width: 30%;
+}
+
+.thirdPage .img1
+{
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+
+.thirdPage .img2
+{
+    float: right;
+    width: 500px;
+    height: 300px;
 }
