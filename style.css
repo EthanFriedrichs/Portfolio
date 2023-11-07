@@ -226,3 +226,36 @@
     min-width: 150px;
     min-height: 150px;
 }
+
+.thirdPage
+{
+    padding: 0% 3%;
+    border-top-style: solid;
+    border-top-color: white;
+    background-color: darkseagreen;
+}
+
+.boxShadow
+{
+    color: white;
+    text-align: center;
+    padding: 3%;
+    margin: 1%;
+    margin-bottom: 0px;
+    background-color: darkgreen;
+    box-shadow: 0px 0px 10px darkgreen;
+    border-radius: 40px;
+}
+
+.secondTextBox
+{
+    background-color: green;
+    background-image: url("https://media.istockphoto.com/id/1393843533/vector/bright-green-dotted-retro-pop-art-background-in-comic-book-style-funny-superhero-backdrop.jpg?s=612x612&w=0&k=20&c=ZTFWwtorNA8YyCjjfkXECwiDfzR0o1_pL99aecrrabo=");
+    box-shadow: 0px 0px 5px greenyellow;
+    font-size: 20px;
+    margin: 1%;
+    margin-left: 35%;
+    border-style: solid;
+    border-color: black;
+    max-width: 30%;
+}
